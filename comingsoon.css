@@ -1,0 +1,238 @@
+.dropdown-content{
+  display: none;
+  position: absolute;
+  left:1070px;
+  top:80px;
+  background-color :#6a6b6b;
+  padding: 5px;
+  z-index: 1;
+  border:1px solid  #6a6b6b;
+  font-size: 16px;
+  color: #f9f9f9;
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monserrat;
+}
+nav{
+    
+    
+    background: #6a6b6b;
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+nav ul{
+    float:right;
+    margin-right: 20 px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5 px;
+
+}
+
+nav ul li a{
+    color:white;
+    font-size: 17px ;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  
+}
+
+a.active,a:hover{
+    background: #8f98a0;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+}
+
+#check{
+    display:none;
+}
+/**/
+.batas{
+  color: white;
+ 
+  float: right;
+border: none;
+margin-top: 4px;
+margin-right: 4px;
+margin-bottom: 4px;
+padding: 5px;
+background-color: #ced8d8;
+height: 15vh;
+}
+.custom-select{
+  color: white;
+  float: right;
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+margin-bottom: 4px;
+margin-left: 20px;
+font-size: 17px;
+background-color: #ced8d8;
+
+}
+
+
+ /* card film*/
+ .cardd{
+    display: grid;
+    color: rgb(19, 18, 18);
+    grid-template-columns: 900px;
+    border-radius: 18px;
+    background: rgb(250, 245, 245);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    padding: 20px;
+    padding-left: 60px;
+ }
+ .cardd h2{
+  color:  rgb(19, 18, 18) ;
+}
+    .card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 150px;
+    grid-template-areas: "image" "text";
+    padding: 30px;
+  
+   
+  }
+  .card-image {
+    grid-area: image;
+    
+  }
+  .card-text {
+    grid-area: text;
+  }
+  .card-image {
+    grid-area: image;
+    background: url("gambarcomingsoon/Digimon\ Adventure.webp");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+  }
+  .card-image2 {
+    grid-area: image;
+    background: url("gambarcomingsoon/happy\ old\ year.webp");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-image3 {
+    grid-area: image;
+    background: url("gambarcomingsoon/Kkn\ desa\ penari.webp");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-image4 {
+    grid-area: image;
+    background: url("gambarcomingsoon/melankqlia.webp");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-image5 {
+    grid-area: image;
+    background: url("gambarcomingsoon/tarung\ sarung.webp");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card-image6 {
+    grid-area: image;
+    background: url("gambarcomingsoon/the\ cleansing\ hour.webp");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+  }
+  .card {
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:10px;
+  }
+ 
+  /*footer*/
+  *, *:before, *:after {
+    box-sizing: border-box;
+    }
+.footer {
+      
+        padding: 10px;
+        color: #fff;
+        background-color: #6a6b6b;
+
+        }
+.b-footer{
+    text-align: center;
+} 
+.l-footer img{
+   position: absolute;
+   width: 200px;
+   left: 42%;
+   display: flex;
+
+}
+.sosial ul{
+   position: absolute;
+   right: 1%;
+  
+   display:flex;
+}
+.sosial ul li{
+   display: block;
+   position: relative;
+   width: 50px;
+   
+   
+}
+.sosial ul li i:hover{
+   cursor: pointer;
+   color: black;
+}
